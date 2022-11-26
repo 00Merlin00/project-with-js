@@ -26,9 +26,14 @@ h2 {
   font-weight: 500;
 }
 
+h5 {
+  font-weight: 500;
+}
+
 h4 {
   font-size: 20px;
   color: #222;
+  font-weight: 500;
 }
 
 h6 {
@@ -81,8 +86,8 @@ p {
 
 .navbar .list-items a {
   text-decoration: none;
-  font-size: 16px;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 400;
   color: #1a1a1a;
   transition: 0.3s ease-in-out;
 }
@@ -160,4 +165,102 @@ p {
   display: inline-block;
   max-height: 85vh;
   margin-right: 2rem;
+}
+
+/* ******************** Feature Styling ************************************* */
+
+.feature {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.feature .fe-box {
+  border: 2px solid #cce7d0;
+  width: 180px;
+  padding: 25px 15px;
+  text-align: center;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border-radius: 4px;
+  margin: 15px 0;
+}
+
+.feature .fe-box:hover {
+  box-shadow: 10px 10px 54px rgba(70, 62, 221, 0.1);
+}
+
+.feature .fe-box img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.feature .fe-box h6 {
+  display: inline-block;
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  background: rgb(93, 102, 226);
+  color: #fff;
+  font-weight: 500;
+}
+
+.feature .fe-box:nth-child(2) h6,
+.feature .fe-box:nth-child(4) h6,
+.feature .fe-box:nth-child(6) h6 {
+  background-color: rgb(233, 90, 133);
+}
+
+/* *********************************** Feature Product Styling **************************** */
+
+.feature-product {
+  text-align: center;
+}
+
+.feature-product .pro {
+  width: 23%;
+  min-width: 250px;
+  padding: 10px 12px;
+  border: 2px solid #cce7d0;
+  border-radius: 25px;
+  cursor: pointer;
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+  margin: 15px 0;
+  transition: 0.2s ease;
+}
+
+.feature-product .pro:hover {
+  box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+}
+
+.feature-product .pro img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.feature-product .pro .discription {
+  text-align: start;
+  padding: 10px 0;
+}
+
+.feature-product .pro .discription span {
+  color: #606063;
+  font-size: 15px;
+}
+
+.feature-product .pro .discription h5 {
+  font-size: 1.2rem;
+}
+
+.feature-product .pro .discription i {
+  color: rgb(243, 183, 25);
+  font-size: 12px;
+}
+
+.feature-product .pro .discription h4 {
+  color: rgb(93, 102, 226);
+}
+
+.feature-product .pro .cart {
+  width: 40px;
 }
