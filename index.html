@@ -6,7 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
     <link rel="stylesheet" href="./style.css" />
     <script src="./script.js" defer></script>
     <title>Ecommerce site</title>
@@ -15,13 +16,29 @@
     <nav class="navbar">
       <div class="logo"><img src="./images/logo.png" alt="" /></div>
       <ul class="list-items">
-        <li><a href="index.html">Home</a></li>
+        <li><a class="active" href="index.html">Home</a></li>
         <li><a href="shop.html">Shop</a></li>
         <li><a href="blog.html">Blog</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Contact</a></li>
-        <li><a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a></li>
+        <li>
+          <a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+        </li>
       </ul>
     </nav>
+    <section class="showcase-section">
+      <div class="left-showcase">
+        <div class="showcase-text">
+          <h4>Trade-in-offer</h4>
+          <h2>Super value deals</h2>
+          <h1>on all products</h1>
+          <p>Save more with coupons & up to 70% off</p>
+        </div>
+        <button>Shop Now</button>
+      </div>
+      <div class="banner-img">
+        <img src="./images/showcase.png" alt="model man" />
+      </div>
+    </section>
   </body>
 </html>
