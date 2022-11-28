@@ -394,6 +394,13 @@ p {
 
 /* *********************************text banner-styling ******************************** */
 
+.text-banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+
 .text-banner .banner-box {
   display: flex;
   flex-direction: column;
@@ -407,4 +414,23 @@ p {
   background-position: center;
   padding: 20px;
   margin-bottom: 20px;
+}
+
+.text-banner .bb2 {
+  background-image: url("./images/banner/b4.jpg");
+}
+
+.text-banner .bb3 {
+  background-image: url("./images/banner/b18.jpg");
+}
+
+.text-banner .banner-box h2 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 25px;
+}
+.text-banner .banner-box h3 {
+  color: #ec544e;
+  font-weight: 500;
+  font-size: 20px;
 }
