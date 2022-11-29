@@ -434,3 +434,16 @@ p {
   font-weight: 400;
   font-size: 20px;
 }
+
+/* *************************** News-letter Styling ************************** */
+
+.news-letter {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url("./images/banner/b14.png");
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background-color: #041e42;
+}
