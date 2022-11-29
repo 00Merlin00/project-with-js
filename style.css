@@ -82,12 +82,12 @@ p {
 /* ****************************** Navbar styling ****************************************** */
 
 .navbar {
-  max-height: 90px;
+  max-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 80px;
-  background: #e3e6f3;
+  background: rgba(227, 230, 243, 0.8);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
   z-index: 1;
   position: sticky;
@@ -426,11 +426,11 @@ p {
 
 .text-banner .banner-box h2 {
   color: #fff;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 25px;
 }
 .text-banner .banner-box h3 {
-  color: #ec544e;
-  font-weight: 500;
+  color: #f7625d;
+  font-weight: 400;
   font-size: 20px;
 }
