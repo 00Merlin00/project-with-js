@@ -114,7 +114,7 @@ p {
 
 .navbar .list-items a {
   text-decoration: none;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   font-weight: 400;
   color: #1a1a1a;
   transition: 0.3s ease;
@@ -141,6 +141,7 @@ p {
   display: flex;
   justify-content: space-evenly;
   background: #e3e6f3;
+  height: 90vh;
 }
 
 .showcase-section .left-showcase {
@@ -192,7 +193,7 @@ p {
 
 .showcase-section img {
   display: inline-block;
-  max-height: 80vh;
+  max-height: 90vh;
   margin-right: 2rem;
 }
 
@@ -544,6 +545,16 @@ footer .install .row img {
   border-radius: 6px;
 }
 
-footer .instal img {
+footer .install img {
   margin: 10px 0 15px 0;
+}
+
+footer .follow i:hover,
+footer a:hover {
+  color: rgb(54, 65, 212);
+}
+
+footer .copy-right {
+  width: 100%;
+  text-align: center;
 }
