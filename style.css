@@ -8,6 +8,7 @@
 
 body {
   font-family: "Rubik", sans-serif;
+  width: 100%;
 }
 
 /* ******************************** Utility prep ********************************* */
@@ -82,7 +83,7 @@ p {
 
 .navbar {
   min-height: 75px;
-  width: 125%;
+
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -557,4 +558,37 @@ footer a:hover {
 footer .copy-right {
   width: 100%;
   text-align: center;
+}
+
+/* ************************************ Shop Page ****************************************8 */
+
+.shop-header {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("images/shop-show.jpg");
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: rgb(55, 66, 216);
+}
+
+.shop-header h2 {
+  color: rgb(57, 68, 216);
+}
+
+/* *********************************** Media Queries ********************************** */
+
+@media (max-width: 830px) {
+  .navbar .list-items {
+    gap: 1rem;
+  }
+
+  body {
+    width: 180px;
+  }
 }
