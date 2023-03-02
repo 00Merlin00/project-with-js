@@ -79,6 +79,10 @@ p {
   transition: 0.2s;
 }
 
+span {
+  font-weight: 400;
+  color: #676967;
+}
 /* ****************************** Navbar styling ****************************************** */
 
 .navbar {
@@ -601,6 +605,11 @@ footer .copy-right {
 
 /* ******************************** Single product ****************************** */
 
+.pro-details {
+  display: flex;
+  margin-top: 20px;
+}
+
 .pro-details .single-proimg {
   width: 40%;
   margin-right: 50px;
@@ -614,6 +623,11 @@ footer .copy-right {
 .small-img-col {
   flex-basis: 24%;
   cursor: pointer;
+}
+
+.pro-details .single-pro-details {
+  width: 50%;
+  padding-top: 30px;
 }
 
 /* *********************************** Media Queries ********************************** */
