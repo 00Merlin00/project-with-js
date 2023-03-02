@@ -76,7 +76,7 @@ p {
   cursor: pointer;
   border: 1px solid #fff;
   outline: none;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 span {
