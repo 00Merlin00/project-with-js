@@ -67,6 +67,19 @@ p {
   outline: none;
   transition: 0.2s;
 }
+
+.normal-btn {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 15px 25px;
+  color: #fff;
+  border-radius: 4px;
+  background: rgba(93, 102, 226, 0.918);
+  border: none;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
 .btn-primary {
   font-size: 13px;
   font-weight: 700;
@@ -76,7 +89,7 @@ p {
   cursor: pointer;
   border: 1px solid #fff;
   outline: none;
-  transition: 0.1s;
+  transition: 0.2s;
 }
 
 span {
@@ -630,6 +643,39 @@ footer .copy-right {
   padding-top: 30px;
 }
 
+.pro-details .single-pro-details h4 {
+  padding: 40px 0 20px 0;
+}
+
+.pro-details .single-pro-details h2 {
+  font-size: 26px;
+}
+
+.pro-details .single-pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+.pro-details .single-pro-details select:focus {
+  outline: none;
+}
+
+.pro-details .single-pro-details input {
+  width: 40px;
+  height: 42px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.pro-details .single-pro-details input:focus {
+  outline: none;
+}
+
+.pro-details .single-pro-details span {
+  line-height: 25px;
+}
 /* *********************************** Media Queries ********************************** */
 
 @media (max-width: 830px) {
